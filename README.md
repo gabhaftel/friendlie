@@ -18,4 +18,4 @@ When running the fith section, you will be able to either log in or sign up. Whe
 
 The subsequent sections perform a series of functions in order to find the user their matches. These are: give weight to the user's given preferences, convert user's profile into a hash table to add to the user database, search for similar profiles, refining the list of matches to better suit user, check for duplicates and a quicksort to find the most similar profiles from that refined list.
 
-Finally, the last section has a function that presents the 3 best matches to the user. 
+Finally, the last section has a function that presents the three best matches to the user. 
