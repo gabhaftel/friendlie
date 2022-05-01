@@ -16,4 +16,6 @@ The forth section creates the class 'Profile', which is used to store the inform
 
 When running the fith section, you will be able to either log in or sign up. When doing the latter, you will be prompted to create your profile and set your preferences. This cell automatically calls for sign-up (for the UX Test). In order to change into signin, simply change the function from sign_up to login_username and login_password. 
 
-The subsequent sections perform a series of functions in order to find the user their matches. These are: give weight to the user's given preferences, convert user's profile into a hash table to add to the user database, search for similar profiles, 
+The subsequent sections perform a series of functions in order to find the user their matches. These are: give weight to the user's given preferences, convert user's profile into a hash table to add to the user database, search for similar profiles, refining the list of matches to better suit user, check for duplicates and a quicksort to find the most similar profiles from that refined list.
+
+Finally, the last section has a function that presents the 3 best matches to the user. 
