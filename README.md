@@ -13,3 +13,7 @@ If you want to test the functions using an example group of students to match wi
 The first two sections give you options to use a pre-existing database of profiles (particularly userdatabase.csv). The first method uses an 'upload widget' and the second requires the file path. 
 
 The forth section creates the class 'Profile', which is used to store the information about each individual student. These include: name, username, password, age, bachelor, nationality, hobbies, languages spoken, among others. The class also includes functions to standardize all the user inputs, in order to minimze user error. Additionally, the class has a function where you can set your priorities (e.g. first priority is meeting people with the same nationality). 
+
+When running the fith section, you will be able to either log in or sign up. When doing the latter, you will be prompted to create your profile and set your preferences. This cell automatically calls for sign-up (for the UX Test). In order to change into signin, simply change the function from sign_up to login_username and login_password. 
+
+The subsequent sections perform a series of functions in order to find the user their matches. These are: give weight to the user's given preferences, convert user's profile into a hash table to add to the user database, search for similar profiles, 
